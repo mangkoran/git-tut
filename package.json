@@ -1,0 +1,31 @@
+{
+  "name": "git-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangkoran/git-tut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mangkoran/git-tut/issues"
+  },
+  "homepage": "https://github.com/mangkoran/git-tut#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@commitlint/cz-commitlint": "^15.0.0",
+    "commitizen": "^4.2.4"
+  }
+}
